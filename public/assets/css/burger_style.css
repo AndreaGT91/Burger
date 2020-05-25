@@ -1,19 +1,35 @@
+h2 {
+  margin-right: 20px;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: #b6a793;
+}
+
+button {
+  color: rgb(233, 231, 231);
+  background-color: rgb(51, 30, 3);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(238, 228, 209);
 }
 
 .label {
   font-weight: bold;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
 }
 
-.form-group {
-  margin-bottom: 5px;
+.create-form {
+  padding: 5px;
+  margin: 5px;
 }
