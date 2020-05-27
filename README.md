@@ -1,6 +1,25 @@
 # Burger
-Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.  Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.  Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.  The app will store every burger in a database, whether devoured or not.
+Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.  Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.  Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page. Burgers on both sides of the page have a `Delete` button.  The app will store every burger in a database, whether devoured or not. App utilizes MySQL, Node, Express, Handlebars, ORM and the MVC design pattern.
 
+## GitHub Repository
+[github.com/AndreaGT91/Burger](https://github.com/AndreaGT91/Burger)
+
+## Heroku Deployment
+[quiet-shelf-90910.herokuapp.com/](https://quiet-shelf-90910.herokuapp.com/)
+
+## Installation 
+ `npm install` 
+
+## Usage 
+ `node server.js`   
+ [localhost:8080/](http://localhost:8080/)
+
+## Questions 
+ ![Andrea Bentley](https://avatars2.githubusercontent.com/u/58275699?v=4&s=48)  Andrea Bentley  (AndreaGT91)     
+[andrea@bentleytech.com](mailto:andrea@bentleytech.com)
+
+
+## Assignment:
 # Node Express Handlebars
 
 ### Overview
